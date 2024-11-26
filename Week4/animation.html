@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .box{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+        
+            animation-name: hellokitty;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes hellokitty{
+            form {
+                width: 100px;
+             }
+             to {
+                width: 1000px;
+                height: 100px;
+                background-color: blueviolet;
+                transform: translate(0px,500px);
+             }
+         }
+    </style>
+<body>
+    
+</body>
+</html>

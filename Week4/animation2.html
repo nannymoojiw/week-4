@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        boby {
+            background-color: black;
+        }
+ 
+        .box{
+            background: cadetblue;
+background: linear-gradient(90deg, (rgb(88, 24, 65),58,180,1) 0%, (#253,29,29,1) 50%, (#252,176,69,1) 100%);
+            width: 100px;
+            height: 200px;
+            border: 10px solid beige;
+ 
+            animation: nanny;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: ease-in;
+ 
+        }
+        @keyframes nanny{
+            0%
+            {
+                transform: translate(0px,0px);
+            }
+            25%
+            {
+                transform: translate(500px,0px);
+                transform: rotate(400deg);
+            }
+            50%
+            {
+                transform: translate(500px,500px);
+           
+            }
+            70%
+            {
+                transform: translate(0px.500px);
+            }
+        }
+        </style>
+ 
+<body>
+    <div class="box"></div>
+</body>
+</html>
